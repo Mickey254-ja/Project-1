@@ -1,6 +1,6 @@
 /*Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -21,6 +21,14 @@ img {
 body {
     color: var(--text-color);
 }
+.container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+section {
+    padding: 4rem 0 3rem;
+}
 /*Header*/
 header {
     position: fixed;
@@ -28,11 +36,35 @@ header {
     left: 0;
     width: 100%;
     background: var(--bg-color);
-    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    box-shadow: 0 1px 4px hs1(0 4% 15% / 10%);
 }
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 50px 0;
+}
+.logo {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+.nav-container i{
+    margin-left: 500px;
+    padding-right: 19px;
+    right: 0;
+}
+#cart-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    right: 0%;
+}
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.shop {
+    margin-top: 2rem;
 }
